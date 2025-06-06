@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62923207b5bdb184394563368eaa934e, type: 3}
+  m_Name: Rumba
+  m_EditorClassIdentifier: 
+  musicName: Rumba
+  animationName: BailecitoCuatro
+  notesConfig: {fileID: 4900000, guid: 8172131dc863ce14f8ebb5f9a1fb1ccd, type: 3}
+  speed: 200
