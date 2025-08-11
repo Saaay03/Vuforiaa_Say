@@ -30,6 +30,11 @@
       {"time": 27, "lane":2},
       {"time": 28, "lane":1},
       {"time": 29, "lane":2},
-      {"time": 30, "lane":0}
+      {"time": 30, "lane":0},
+      {"time": 31, "lane":1},
+      {"time": 32, "lane":1},
+      {"time": 33, "lane":2},
+      {"time": 34, "lane":0},    
+      {"time": 35, "lane":0}
     ]
 }

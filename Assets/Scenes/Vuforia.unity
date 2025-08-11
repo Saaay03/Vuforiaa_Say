@@ -957,7 +957,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 1000927facb29744ea5261ae788a73a6, type: 3}
     m_FontSize: 100
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 100
@@ -1954,7 +1954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 0.47058824}
+  m_Color: {r: 0.8490566, g: 0.52865785, b: 0.52865785, a: 0.47058824}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2047,7 +2047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 0.47058824}
+  m_Color: {r: 0.8207547, g: 1, b: 0.8207547, a: 0.47058824}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3224,7 +3224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 0.47058824}
+  m_Color: {r: 0.5457458, g: 0.6696579, b: 0.7924528, a: 0.47058824}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3681,7 +3681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3691,7 +3691,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 1000927facb29744ea5261ae788a73a6, type: 3}
     m_FontSize: 100
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 100
@@ -3793,7 +3793,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 1000927facb29744ea5261ae788a73a6, type: 3}
     m_FontSize: 100
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 100
@@ -3823,7 +3823,7 @@ GameObject:
   - component: {fileID: 1623222810}
   - component: {fileID: 1623222809}
   - component: {fileID: 1623222808}
-  - component: {fileID: 1623222807}
+  - component: {fileID: 1623222811}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -3831,25 +3831,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1623222807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1623222806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1623222809}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: image
-  mDatasetName: 
-  mCastedBehaviour: {fileID: 1623222809}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1623222808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4052,7 +4033,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1623222807}
+  mPreview: {fileID: 1623222811}
 --- !u!4 &1623222810
 Transform:
   m_ObjectHideFlags: 0
@@ -4069,6 +4050,25 @@ Transform:
   - {fileID: 1731394554}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1623222811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623222806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1623222809}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: image
+  mDatasetName: 
+  mCastedBehaviour: {fileID: 1623222809}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1627086711
 GameObject:
   m_ObjectHideFlags: 0
@@ -4486,7 +4486,7 @@ MonoBehaviour:
           m_StringArgument: BottonDisappear
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1731394555}
+      - m_Target: {fileID: 1731394556}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: Play
         m_Mode: 5
@@ -4575,15 +4575,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c9bb6d2279d032e4abd4b96502e3bee7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4
+      value: 0.099999994
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9bb6d2279d032e4abd4b96502e3bee7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4
+      value: 0.099999994
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9bb6d2279d032e4abd4b96502e3bee7, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.4
+      value: 0.099999994
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9bb6d2279d032e4abd4b96502e3bee7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4733,7 +4733,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 1000927facb29744ea5261ae788a73a6, type: 3}
     m_FontSize: 100
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 100
